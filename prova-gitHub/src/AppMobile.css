@@ -1,0 +1,175 @@
+@media only screen and (max-width: 1000px){
+    .photo{
+        display:none !important ;
+    }
+    .lista{
+        margin-right: 0%;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: row;
+        align-content: stretch;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 200;
+        }
+    #posti{
+        width: 2%;
+    }
+    .orario{
+        width: 12%;
+    }
+    #name{
+        width: 10%;
+    }
+    
+    .singleElement{
+        
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+        
+    }
+    #mainHeader{
+        display: block;
+        
+    }
+    #buttonLi{
+        width: 30%;
+    }
+    .headerUp{
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+    }
+    div.showElement{
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+    }
+    ul.router{
+        padding-right: 20%;
+        padding-left: 20%;
+        display: flex;
+        justify-content: space-around;
+        }
+        .headerOption{
+            margin-left: 10%;
+            margin-right: 10%;
+            width: 100%;
+        }
+    div.colonna2.col{
+        display: none;
+        }
+
+        div.con.row{
+            margin-left:auto;
+            margin-right: auto;
+        }
+    div.colonna1.col{
+        display :flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+
+        /* margin-right: 40%; */
+         margin-right: 0%; 
+    }
+    div.eventCard.card{
+        margin-right: 30%;
+        margin-left: 0;
+    }
+        .wall{
+            display: flex;
+            justify-content: center;
+        background-color:teal;
+        position: absolute;
+        height: 1%;
+        margin-right: 2%;
+        margin-left: 5%;
+        width: 100%;
+        z-index: -1;
+        padding-bottom: 50%;
+    }
+    div.scopri{
+        display:none;
+    }
+    div.downloadApp{
+        display:none
+    }
+    div.cardDeck.card-deck{
+        display:flex;
+    }
+    
+
+      div.footer{
+        display: none;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+    div.headerOption{
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+       margin-top: 0;
+       margin-bottom: 0;
+       height: 150px;
+    }
+    .filtri{
+        background-color:rgb(205, 247, 139) ;
+        color: teal;
+        display: inline-block;
+        position: sticky;
+        top: 0;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        font-weight: bold;
+        font-size:14px ;
+
+    }
+    .filtri a{
+        color: teal
+    }
+    .col-12{
+        display: flex;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        justify-content: space-evenly;
+        align-items: center;
+   }
+    .social{
+        padding-left:10% !important;
+        padding-right:10%
+
+    }
+    div.card-body{
+        padding-bottom: 0% ;
+        ;
+    }
+    div.cardMagazine.card-title.h5{
+        font-size: 14px;
+    }
+     .card-text{
+         font-size: 10px;
+     }
+     
+        div.container.row{
+            width: 100%;
+        }
+        .title-mobile{
+            background-color: teal;
+            padding: 5% 3%;
+        }
+        
+    }

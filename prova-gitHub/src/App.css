@@ -1,0 +1,330 @@
+@media only screen and (max-width: 2400px){
+    .router{
+        width:100%;
+        margin-top: 1%;
+    }
+    .row{
+        width: 100%;
+        display: flex;
+        justify-content:center;
+    }
+    div.cont.row{
+    width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    div.colonna1.col, div.colonna2.col{
+    padding-left: 0;
+    padding-right: 0;  
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+    .wall{
+        display: flex;
+        justify-content: center;
+    background-color:rgb(205, 247, 139);
+    position: absolute;
+    height: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+    width: 100%;
+    z-index: -1;
+    
+    }
+    #text{
+        margin-left: 10%;
+        margin-right: 20%;
+        margin-top: 5%;
+        color: teal;
+        font-weight: bold;
+
+    }
+    .container{
+        position: absolute;
+        top:70px;
+        right: 0;
+        left:0;
+        width: 100%;
+        margin-left: 10%;
+       
+    }
+   
+
+
+    .router{
+        background-color: white;
+        display: flex;
+        justify-content:space-around;
+        flex-direction: row;
+        background-size: 10%;
+        padding-left:60%;
+        
+    }
+    .eventCard{
+        margin: 10%;
+        width: 100%;
+        background-color: darkgoldenrod  ;
+        font-size: 80%;
+        border-radius: 8px;
+    }
+    .scopri{
+            background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzgXeESAptywGMYiWOdh98Ouo5OaXMTRA1TA&usqp=CAU);
+        background-repeat: no-repeat;
+        background-color:  midnightblue;
+        background-size: 45%;
+        background-position-y: 60%;
+        right: 0;
+        width:100%;
+        height: 170px;
+        /* height:400%; */
+        border-radius: 8px;
+        /* background-size: 240px; */
+        display: flex;
+        
+        align-content: flex-end;
+        justify-content: flex-end;
+        align-items: center; 
+        
+    }
+    .insideScopri{
+        background-color: red;
+    }
+    .scopri p{
+        font-size: 18px;
+        right: 10%;
+    color: mintcream;
+    }
+    .scopri button{
+        background-color: forestgreen;
+        position: relative;
+        right: 20%;
+        align-self: flex-end ;
+        margin-bottom: 1%;
+        color: midnightblue;
+    }
+    .downloadApp{
+        background-image:url(https://lh3.googleusercontent.com/proxy/TuO_5cp5-broxVdJXX_Xj5XjQeEszmvZmyvgICk0f3H25XB_iQQWWizvn9xLTytWFFwGpoF2YouP2r7EaSVe82A6gUr5clV4hl51gyMD14tXJgRbTfZ_JPwVyho6HnALIAoQG8yMC5k);
+        background-repeat: no-repeat;
+        background-color: midnightblue;
+        background-size: 45%;
+        right: 0;
+        width:100%;
+        height: 160px;
+        border-radius: 8px;
+        display: flex;
+        
+        align-content: flex-end;
+        justify-content: flex-end;
+        align-items: center; 
+    }
+    .downloadApp p{
+        position: relative;
+        font-size: 20px;
+        font-weight: bold;
+        right: -8%;
+    color: forestgreen
+    }
+    .downloadApp input{
+        position: relative;
+        right: 15%;
+        align-self: flex-end ;
+        margin-bottom: 2%;
+    }
+    .magazine{
+        margin-top: 4%;
+        margin-bottom: 1%;
+        padding-right: 10%;
+        padding-left: 10%;
+        display: flex;
+        justify-content: space-between;
+        width:100%;
+        font-weight: bold;
+        
+        
+    }
+    .cardFooter{
+        background-color: lightgrey;
+        width:50%;
+        margin: 0 26%;
+        margin: 60px auto;
+    }
+    .foot{
+        position: absolute;
+        bottom :1px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 2%;
+        margin-left: 65%;
+        margin-right: 10%;
+        /* background-color: transparent;
+        position: fixed;
+        bottom: 15%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        color: black;
+        margin-left: 70%;
+        margin-bottom: 0%;
+        margin-right: 30%;
+        
+        
+        width: 20%;
+        height: 10%; */
+        
+    } 
+   
+    
+    li{
+        display: block;
+        padding: 2px;
+    }
+    .avvisi{
+        margin-top: 4%;
+        margin-bottom: 1%;
+        padding-right: 10%;
+        padding-left: 10%;
+        background-color: white;
+        display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin-top: 3%;
+    font-weight: bold;
+    }
+    .avvisi p{
+        font-weight: bold;
+    }
+    .accordion{
+        margin-bottom: 5%;
+    }
+    .cardMagazine{
+        font-size: 12px;
+    }
+    .cardDeck{
+        
+    }
+    
+    .headerOption{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        background-color: rgb(205, 247, 139);
+    }
+    .headerOption select{
+        color: teal;
+        font-weight: bold;
+    }
+
+    .showElement{
+        margin-top: 2%;
+        margin-left: 20%;
+        margin-right: 20%;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between
+        
+
+    }
+    .singleElement{
+        height: 60%;
+        border-width: 1px;
+        padding-right: 5%;
+        border-color: black;
+        border-style: solid;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .singleElement img{
+        width: 30%;
+        height: 80%;
+        background-size: contain;
+        height: auto;
+        max-width: 100%;
+        
+
+    }
+    .singleElement div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        max-height: 80%;
+
+    }
+    #name{
+        font-weight: bold;
+        font-size: 80%;
+        margin-bottom: 0px;
+    }
+    #time{
+        font-size: 80%;
+        margin-bottom: 0px;
+        
+    }
+    #start{
+        font-size: 80%;
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-right: 10%;
+    }
+    #end{
+        font-size: 60%;
+        margin-bottom: 0px;
+    }
+    #select{
+        
+        color: teal ;
+    }
+    #lista{
+        width: 100%;
+        padding:2px;
+        margin: 2px;
+    }
+    #lista img{
+        display: block;
+        height: 110px;
+    }
+    ul.router{
+        padding-right: 20%;
+    }
+    #posti{
+        font-size: 80%;
+        margin-bottom: 0px;
+    }
+    #buttonLi{
+        font-size: 70%;
+    }
+    #buttonReset{
+        font-weight: bold;
+        color: teal;
+    }
+    select{
+        background-color:transparent ;
+        border:0;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .filtri{
+        display: none;
+    }
+    .cardMagazine card-title{
+        font-size: 10px;
+    }
+    .col-12{
+        display: flex;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        justify-content: space-evenly;
+        align-items: center;
+   }
+    .social{
+        padding-left: 70%;
+
+    }
+}
